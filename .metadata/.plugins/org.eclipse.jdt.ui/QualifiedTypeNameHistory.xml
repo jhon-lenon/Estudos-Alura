@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Batybank_herdado.ControleBonificacao"/>
+    <fullyQualifiedTypeName name="Batybank_herdado.Funcionario"/>
+    <fullyQualifiedTypeName name="Batybank_herdado.EditorVideo"/>
+    <fullyQualifiedTypeName name="Batybank_herdado.SistemaInterno"/>
+    <fullyQualifiedTypeName name="Batybank_herdado_conta.Conta"/>
+    <fullyQualifiedTypeName name="Batybank_herdado.Adiministrador"/>
+    <fullyQualifiedTypeName name="Batybank_herdado.FuncionarioAutenticavel"/>
+    <fullyQualifiedTypeName name="Batybank_herdado.Administrador"/>
+    <fullyQualifiedTypeName name="Batybank_herdado.AutenticacaoUtil"/>
+    <fullyQualifiedTypeName name="Batybank_herdado.Gerente"/>
+    <fullyQualifiedTypeName name="Batybank_herdado.Autenticavel"/>
+    <fullyQualifiedTypeName name="Batybank_herdado_conta.Tributavel"/>
+    <fullyQualifiedTypeName name="Batybank_herdado_conta.ContaCorrente"/>
+    <fullyQualifiedTypeName name="java.awt.geom.CubicCurve2D"/>
+    <fullyQualifiedTypeName name="Batybank_herdado_conta.SeguroDeVida"/>
+    <fullyQualifiedTypeName name="Batybank_herdado_conta.CalculadorDeImposto"/>
+</qualifiedTypeNameHistroy>

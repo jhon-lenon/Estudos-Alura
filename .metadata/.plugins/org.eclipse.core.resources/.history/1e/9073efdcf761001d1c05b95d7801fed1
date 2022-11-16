@@ -1,0 +1,48 @@
+package Batybank_herdado;
+
+public class Gerente {
+	private String nome;
+	private String cpf;
+	private double salario;
+	private int senha;
+
+	/**-----------BONIFICAÇÃO-----------------*/
+	public double getBonificacao() {
+		return this.salario;
+	}
+	
+	/**--------------SENHA--------------------*/
+	public void setSenha(int senha) {
+		this.senha = senha;
+	}
+	public int getSenha() {
+		return senha;
+	}	
+	/**-------------NOME----------------------*/
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	/**-------------CPF-----------------------*/
+	public String getCpf() {
+		return cpf;
+	}
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+	
+	/**-----------SALARIO---------------------*/
+	public double getSalario() {
+		return salario;
+	}
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+	
+	/**---------------------------------------*/
+	
+
+}

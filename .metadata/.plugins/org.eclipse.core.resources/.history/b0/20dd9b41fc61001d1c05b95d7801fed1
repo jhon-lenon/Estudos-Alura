@@ -1,0 +1,30 @@
+package Batybank_herdado;
+
+public class Gerente extends Funcionario {
+	private int senha;
+	
+	
+	/**--------------SENHA--------------------*/
+	public boolean autentica(int senha) {
+		if (this.senha == senha) {
+			System.out.println("Senha Correta");
+			return true;
+		} else {
+			System.out.println("Senha Incorreta");
+			return false;
+		}
+	}
+	
+	public void setSenha(int senha) {
+		this.senha = senha;
+	}
+
+	/**-----------BONIFICAÇÃO-----------------*/
+//	public double getBonificacao() {
+//		return this.salario;
+//	}
+	
+	/**---------------------------------------*/
+	
+
+}

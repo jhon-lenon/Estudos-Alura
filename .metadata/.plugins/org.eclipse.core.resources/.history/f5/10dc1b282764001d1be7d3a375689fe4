@@ -1,0 +1,18 @@
+package Batybank_herdado;
+
+public class TesteFuncionario {
+
+	public static void main(String[] args) {
+		
+		Funcionario jhon = new Funcionario();
+		jhon.setNome("Jhon Lenon");
+		jhon.setCpf("222.222.222-22");
+		jhon.setSalario(2600.00);
+		
+		System.out.println(jhon.getNome());
+		System.out.println(jhon.getCpf());
+		System.out.println(jhon.getSalario());
+		System.out.println(jhon.getBonificacao());
+	}
+
+}

@@ -1,0 +1,9 @@
+package Batybank_herdado;
+
+public abstract class Autenticavel extends Funcionario {
+	
+	public abstract boolean autentica(int senha);
+	
+	public abstract void setSenha(int senha);
+
+}

@@ -1,0 +1,21 @@
+package Batybank_herdado;
+
+public class TesteGerente {
+
+	public static void main(String[] args) {
+		
+		Gerente marcos = new Gerente();
+		marcos.setNome("Marcos Oliveira");
+		marcos.setCpf("333.333.333-33");
+		marcos.setSalario(5000);
+		marcos.setSenha(3333);
+		
+		boolean autentica = marcos.autentica(3333);
+		System.out.println(marcos.getNome());
+		System.out.println(marcos.getCpf());
+		System.out.println(marcos.getSalario());
+		System.out.println(marcos.getBonificacao());
+
+	}
+
+}

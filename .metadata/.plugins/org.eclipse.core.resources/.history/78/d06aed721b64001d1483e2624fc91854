@@ -1,0 +1,7 @@
+package Batybank_herdado_conta;
+
+public class ContaCorrente extends Conta {
+	public ContaCorrente() {
+		
+	}
+}

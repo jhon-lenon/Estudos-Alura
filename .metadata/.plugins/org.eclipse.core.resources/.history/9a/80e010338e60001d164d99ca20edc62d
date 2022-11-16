@@ -1,0 +1,30 @@
+package BatybankEncapsulado;
+
+public class TestaGetESet {
+	public static void main(String[] args) {
+		
+		Conta conta = new Conta(1337, 25256);
+		conta.setNumero(1337);
+		System.out.println(conta.getNumero());
+		System.out.println(conta.getAgencia());
+		
+		Cliente jhon = new Cliente();
+//		conta.titular = paulo;
+		jhon.setNome("Jhon Lenon");
+		
+		conta.setTitular(jhon);
+		
+		System.out.println(conta.getTitular().getNome());
+		
+		conta.getTitular().setProfissao("programador");
+//		Agora em duas linhas;
+		Cliente titularDaConta = conta.getTitular();
+		titularDaConta.setProfissao("programador");
+		
+		System.out.println(titularDaConta);
+		System.out.println(jhon);
+		System.out.println(conta.getTitular());
+		
+	}
+
+}

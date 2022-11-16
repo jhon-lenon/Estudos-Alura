@@ -1,0 +1,10 @@
+package Batybank_herdado;
+
+public class Adiministrador extends Funcionario {
+
+	@Override
+	public double getBonificacao() {
+		return 50;
+	}
+
+}

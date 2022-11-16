@@ -1,0 +1,7 @@
+package Batybank_herdado;
+
+import Conta;
+
+public class Adiministrador extends Conta {
+
+}

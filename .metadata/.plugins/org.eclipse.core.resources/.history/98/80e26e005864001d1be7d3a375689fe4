@@ -1,0 +1,14 @@
+package Batybank_herdado;
+
+public class Gerente extends FuncionarioAutenticavel {
+
+	/**-----------BONIFICAÇÃO-----------------*/
+	public double getBonificacao() {
+		System.out.println("Chamando método bonificação do Gerente:");
+		return super.getSalario();
+	}
+	
+	/**---------------------------------------*/
+	
+
+}

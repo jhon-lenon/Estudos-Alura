@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;AprendendoTrabalharComJava&apos; to &apos;Java_JRE_e_JDK_compile_e_execute_o_seu_programa&apos;&#x0D;&#x0A;- Original element: &apos;AprendendoTrabalharComJava&apos;&#x0D;&#x0A;- Renamed element: &apos;AprendendoTrabalharComJava&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;AprendendoTrabalharComJava&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=AprendendoTrabalharComJava" name="Java_JRE_e_JDK_compile_e_execute_o_seu_programa" references="true" stamp="1667955436023" version="1.0"/>
+</session>

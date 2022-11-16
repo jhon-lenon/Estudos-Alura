@@ -1,0 +1,9 @@
+package Batybank_herdado_conta;
+
+public class ContaPoupanca extends Conta {
+	
+	public ContaCorrente(int agencia, int numero) {
+		super(agencia, numero);
+	}
+
+}

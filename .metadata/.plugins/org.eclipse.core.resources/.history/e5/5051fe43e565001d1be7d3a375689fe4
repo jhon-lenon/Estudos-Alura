@@ -1,0 +1,11 @@
+package Praticando_Eranca;
+
+public class Aluno {
+	
+	private int ra;
+	
+	public Aluno(String nome, String cpf, int ra) {
+		supe
+	}
+
+}

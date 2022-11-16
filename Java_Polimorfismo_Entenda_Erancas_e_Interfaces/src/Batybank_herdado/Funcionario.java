@@ -1,0 +1,38 @@
+package Batybank_herdado;
+
+//Não pode mais instanciar dessa classe, porque é abstrata
+public abstract class Funcionario {
+	private String nome;
+	private String cpf;
+	private double salario;
+	
+	
+	/**---------BONIFICAÇÃO-------------------*/
+	//Método sem corpo, não há implementação
+	public abstract double getBonificacao();
+	
+	/**----------NOME-------------------------*/
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	/**----------CPF--------------------------*/
+	public String getCpf() {
+		return cpf;
+	}
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+	
+	/**----------SALARIO----------------------*/
+	public double getSalario() {
+		return salario;
+	}
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+	
+}
